@@ -18,7 +18,7 @@ app.get('/productos/:id',(req,res)=>{
     res.json(obetener) 
 })
 //crear productos
-let id=1;
+let id=2;
 app.post('/productos',(req,res)=>{
     
     const {nombre,cantidad,precio}= req.body;
